@@ -5,9 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .hidden {
+            display: none
+        }
+    </style>
 </head>
 <body>
-    <!--comment-->
-    <!--comment2-->
+    <div id='q1'>
+        <p>Welcome. Choose a problem I can help with. Do you feel anxious?</p>
+        <button onclick="yes1()">Yes</button> <button onclick="no1()">No</button>
+    </div>
+    <div id='advice1' class="hidden">
+        <p>Several small steps you can take to improve anxiety symptoms:   1. Take a deep breath   2. Get active    3. Challenge an anxious thought   4. Stay connected to others   7. Avoid caffeine and drink more water</p>
+    </div>
+    <div id='q2' class="hidden">
+        <p>Do you feel depressed?</p>
+        <button id="Yes2">Yes</button> <button id="No2"> No</button>
+    </div>
+    <div id='advice2' class="hidden">
+        <p>It is hard, but stay strong! Some advices: 1. Keep in touch with other people 2. Don't drink too much alcohol 3. Have a routine 4. Seeling help for depression  5. Don't hesitate to ask friends for support</p>
+    </div>
+    <div id='positive' class="hidden">
+        <p>Good for you</p>
+    </div>
+    <div id='negative' class="hidden">
+        <p>Unfortunately, I cannot help. Please, get a consultation of a specialist</p>
+    </div>
+    <script src="question.js"></script> 
 </body>
 </html>
