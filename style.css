@@ -1,0 +1,18 @@
+.hidden {
+    display: none;
+}         
+
+body > div {
+    border: 1px solid green; 
+    text-align: center;
+}
+
+li {
+    text-align: left;
+}
+
+ol {
+    
+    padding-left: 15%;
+    padding-right: 15%;
+}
